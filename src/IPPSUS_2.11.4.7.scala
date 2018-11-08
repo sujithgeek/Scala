@@ -1,5 +1,5 @@
 
-
+//Program for getting an order, computing receipt with tax and printing it
 
 import io.StdIn._
 

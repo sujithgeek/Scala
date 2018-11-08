@@ -20,7 +20,21 @@ def max(x:Int, y:Int): Int= {
 max(1,5)
 
 def fn2(x:Int): Unit = {
-  for(i<- 0 to x) (println(i))
+  for(i<- 0 to x)
+    println(i)
 
 }
 fn2(5)
+
+
+def count(n:Int): Unit={
+  if (n>0){
+    println(n)
+    count(n-1)
+
+  }
+}
+count(5)
+
+val y= math.pow(2.0,3.0)
+
