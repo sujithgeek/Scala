@@ -37,4 +37,7 @@ def count(n:Int): Unit={
 count(5)
 
 val y= math.pow(2.0,3.0)
+val l=List(1,2,3,4,5)
+l.grouped(3).foreach(println)
 
+val x: Double=math.pow(.667,0.5)*16/9
